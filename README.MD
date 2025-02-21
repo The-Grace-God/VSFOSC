@@ -1,3 +1,7 @@
+# WARNING
+<b>THIS PROJECT IS NONFUNCTIONAL AS OF NOW<b/>
+<br />
+<br />
 # VSFOSC
 Melonloader mod that implements Open Sound Control in VSeeface!
 
