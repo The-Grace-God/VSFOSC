@@ -34,8 +34,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Accessibility.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>G:\SteamLibrary\steamapps\common\ChilloutVR\ChilloutVR_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Bespoke.Common">
       <HintPath>E:\GitHub\OpenWeatherOSC\OpenWeatherOSC\ref\Bespoke.Common.dll</HintPath>
@@ -54,13 +60,40 @@
     <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
     </Reference>
+    <Reference Include="FastSpringBone">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\FastSpringBone.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapMotion">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\LeapMotion.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapMotion.LeapCSharp">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\LeapMotion.LeapCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MagicaCloth">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\MagicaCloth.dll</HintPath>
+    </Reference>
     <Reference Include="MelonLoader">
       <HintPath>G:\SteamLibrary\steamapps\common\VRChat\MelonLoader\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="MG.GIF">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\MG.GIF.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>F:\VSeeFace\VSeeFace_Data\Managed\Mono.WebBrowser.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -207,7 +240,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="CVROSC.cs" />
+    <Compile Include="VSFOSC.cs" />
     <Compile Include="Extensions\OSCConfig.cs" />
     <Compile Include="Extensions\VRLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

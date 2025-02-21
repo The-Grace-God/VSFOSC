@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace CVROSC
+namespace VSFOSC
 {
-    public sealed class CVROSCMod : MelonMod
+    public sealed class VSFOSCMod : MelonMod
     {
         [DllImport("shell32.dll")]
         static extern int SHGetKnownFolderPath([MarshalAs(UnmanagedType.LPStruct)] Guid rfid, uint dwFlags, IntPtr hToken, out IntPtr pszPath);
@@ -27,7 +27,7 @@ namespace CVROSC
         // OSC config
         static bool Wait = true;
         static Guid LocalLowFolder = new Guid("A520A1A4-1780-4FF6-BD18-167343C5AF16");
-        static string SavedAvatarGUID = "00000000-0000-0000-0000-000000000000";
+        static string SavedAvatarGUID = "00000000-DEAD-BEEF-FEED-000000000000";
         static ViewManager MenuInstance = null;
         static CVRAnimatorManager AnimatorManager = null;
         static List<CVRAdvancedSettingsFileProfileValue> Parameters = null;
@@ -118,7 +118,7 @@ namespace CVROSC
 
                         try
                         {
-                            string TargetDir = String.Format("{0}\\Alpha Blend Interactive\\ChilloutVR\\OSC\\usr_{1}", GetKnownFolderPath(LocalLowFolder), MetaPort.Instance.ownerId);
+                            string TargetDir = String.Format("{0}\\SMUFED\\VSeeFace\\OSC", GetKnownFolderPath(LocalLowFolder), MetaPort.Instance.ownerId);
                             if (!System.IO.Directory.Exists(TargetDir))
                                 System.IO.Directory.CreateDirectory(TargetDir);
 
@@ -227,7 +227,7 @@ namespace CVROSC
                             {
                                 Parameters[j].value = Convert.ToSingle(Data);
                                 AnimatorManager.SetAnimatorParameter(Parameters[j].name, Parameters[j].value);
-                                // MenuInstance.gameMenuView.View.TriggerEvent("CVRAppActionLoadAvatarSettings");
+                                // MenuInstance.gameMenuView.View.TriggerEvent("VSFAppActionLoadAvatarSettings");
                                 return;
                             }
                         }

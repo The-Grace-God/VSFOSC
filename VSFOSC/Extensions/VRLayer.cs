@@ -7,7 +7,7 @@ using MelonLoader;
 using System;
 using System.Collections.Generic;
 
-namespace CVROSC
+namespace VSFOSC
 {
     public class VRLayer
     {
