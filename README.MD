@@ -1,18 +1,17 @@
-# CVROSC
-Melon mod that implements Open Sound Control in ChilloutVR!
-
-https://user-images.githubusercontent.com/11065274/181604773-c77f6103-e69a-4881-8e92-abe516b521e2.mp4
+# VSFOSC
+Melonloader mod that implements Open Sound Control in VSeeface!
 
 ### Why?
-Why not! Could be useful for people moving away from VRChat.
+I was getting mad at the fact that i couldn't use OSC to control parameters on my model so I made this to fix that
 <br />
-I use OSC myself to display the weather on my wrist. *(And to show it to others lol!)*
+I use osc to control a clock on my avatar and a heartrate meter on my avatar
+url("https://smuffy.nekoweb.org/EYE.png")
 
 ### Required references
-- Assembly-CSharp *(from ChilloutVR's directory)*
-- UnityEngine.AnimationModule *(from ChilloutVR's directory)*
-- UnityEngine.CoreModule *(from ChilloutVR's directory)*
-- MelonLoader *(come on)*
+- Assembly-CSharp *(from VSeeFace's directory)*
+- UnityEngine.AnimationModule *(from VSeeFace's directory)*
+- UnityEngine.CoreModule *(from VSeeFace's directory)*
+- MelonLoader *(needs to be installed beforehand)*
 - Bespoke.OSC *(https://bitbucket.org/pvarcholik/bespoke.osc)*
 - Newtonsoft.Json *(https://www.newtonsoft.com/json)*
 
@@ -20,6 +19,4 @@ I use OSC myself to display the weather on my wrist. *(And to show it to others 
 - Costura for Fody *(https://github.com/Fody/Costura)*
 
 ### Developer note
-This mod is not supported by ABI and nor me nor the mod are in any way affiliated to the company.
-
-If you're spooked easily from mods, then don't use it! lol
+This mod is not supported by Emiliana_vt or Virtual_Deat and nor me nor the mod are in any way affiliated to those people.
