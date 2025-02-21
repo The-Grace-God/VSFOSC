@@ -5,7 +5,7 @@ Melonloader mod that implements Open Sound Control in VSeeface!
 I was getting mad at the fact that i couldn't use OSC to control parameters on my model so I made this to fix that
 <br />
 I use osc to control a clock on my avatar and a heartrate meter on my avatar
-url("https://smuffy.nekoweb.org/EYE.png")
+https://smuffy.nekoweb.org/EYE.png
 
 ### Required references
 - Assembly-CSharp *(from VSeeFace's directory)*
