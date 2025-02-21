@@ -1,5 +1,7 @@
 # WARNING
 <b>THIS PROJECT IS NONFUNCTIONAL AS OF NOW<b/>
+
+and its probably not going to be functional for some time as C# confuses me
 <br />
 <br />
 # VSFOSC
